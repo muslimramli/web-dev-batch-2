@@ -6,6 +6,10 @@
     <title>Review</title>
 
     <style>
+
+        body {
+            background-color: teal;
+        }
         .kotak {
             width: 1000px;
             /* height: 800px; */
@@ -16,9 +20,7 @@
 
         }
 
-        .body-ku {
-            background-color: lightgrey;
-        }
+       
 
         .judul {
             font-size: 30px;
@@ -40,18 +42,29 @@
         }
         .button-ku {
             padding: 10px;
-            background-color: lightskyblue;
+            background-color: darkkhaki;
             width: 100px;
             margin-left: 220px;
             margin-top: 20px;
             margin-bottom: 20px;
-
-           
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;           
+            cursor: pointer;
+            border-radius: 10px;
         }
+        .button-ku:hover {
+            color: white;
+            background-color: thistle;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
        
     </style>
 </head>
-<body class="body-ku">
+<body>
     <div class="kotak">
 
         <div class="berita">
@@ -72,9 +85,12 @@
                  24 jam terakhir hingga hari ini, Selasa (28/4/2020) pukul 12.00 WIB, terjadi 
                  penambahan 415 pasien Covid-19. 
             </div>
+           <a href="http://www.detik.com">
+            
             <div class="button-ku">
                 Read More
             </div>
+        </a>
             <hr>
 
             <div class="berita">

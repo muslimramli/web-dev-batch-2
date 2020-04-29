@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+}
+
+.buttonku {
+    background-color: burlywood;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 70px;
+    margin: auto;
+}
+
+.buttonku:hover {
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
+}
