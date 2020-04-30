@@ -1,0 +1,65 @@
+body {
+    background-color: palegoldenrod;
+}
+
+.container {
+    width: 800px;
+    /* height: 500px; */
+    background-color: palegreen;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kotak-kiri {
+    width: 400px;
+    height: 450px;
+    background-color: palevioletred;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kotak-kanan {
+    width: 400px;
+    height: 450px;
+    background-color: powderblue;
+    margin-left: 360px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.title {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+.input-lebar {
+    width: 360px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-name {
+    width: 150px;
+    padding: 5px;
+
+}
+
+.last-name {
+    width: 150px;
+    padding: 5px;
+    margin-left: 25px;
+
+}
+
+.label-ku {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
