@@ -1,0 +1,13 @@
+body {
+background-color: brown;
+}
+.buttonku {
+    background-color: aquamarine;
+    padding: 20px;
+    cursor: pointer;
+    border: blueviolet;
+}
+
+.buttonku:hover {
+    background-color: blueviolet;
+}

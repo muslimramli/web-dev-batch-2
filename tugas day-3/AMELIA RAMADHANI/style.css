@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+}
+
+.Buttonku {
+background-color: beige;
+margin-bottom: 20px;
+margin-top: 20px;
+padding: 20px;
+cursor: pointer;
+margin: auto;
+width: 70px;
+}
+
+.Buttonku:hover {
+    background-color: burlywood;
+    color: chocolate;
+}
