@@ -1,0 +1,83 @@
+body {
+    background-color: teal;
+}
+
+.container {
+    width: 840px;
+    /* height: 500px */
+    background-color: violet;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kotak-kiri {
+    width: 400px;
+    height: 450px;
+    background-color: tomato;
+    float: left;
+    box-sizing: border-box;
+}
+
+.kotak-kanan {
+    width: 400px;
+    height: 450px;
+    background-color: limegreen;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.input-lebar {
+    width: 360px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}    
+
+.company {
+    width: 350px;
+}
+
+.address {
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.additionalinformation {
+    width: 350px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-top: 10px;
+    margin-bottom: 0.5px;
+}
+
+.provinsi {
+    margin-bottom: 0.5px;
+}
+
+.code {
+    width: 100px;
+}
+
+.phonenumber {
+    width: 250px;
+}
+
+.youremail {
+    margin-top: 20px;
+    width: 350px;
+}
+
+.tombol :hover {
+    background-color: maroon;S
+}

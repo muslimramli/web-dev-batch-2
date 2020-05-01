@@ -1,0 +1,66 @@
+body{
+    background-image: url(cake.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 70px 30px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px lightskyblue;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px)
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.input-2{
+    padding: 10px;
+    width: 250px;
+}
+
+.btn{
+width: 250px;
+background-color: teal;
+opacity: 0.8;
+color: cornsilk;
+padding: 10px;
+cursor: pointer;
+text-align: center;
+}
+
+.btn :hover{
+    background-color: whitesmoke;
+}
+
+.forgot{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+}

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+body {
+    background-color: slategray;
+}
+
+.judul {
+
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+
+
+
+.container {
+    width: 1100px;
+    background-color: tan;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: lawngreen;
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    /* font-family: 'Righteous', cursive; */
+}
+
+.kiri {
+    width: 10px;
+    background-color: tomato;
+    height: 800px;
+    float: left;
+    
+}
+
+.tengah {
+    width: 880px;
+    height: 800px;
+    background-color: tomato;
+    float: left;
+}
+.kanan {
+    width: 210px;
+    background-color: rgb(154, 255, 71);
+    height: 800px;
+    float: left;
+}
+
+.footer {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+.text-footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.dropdown {
+    float: ;
+    line-height: 15px ;
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-radius: 10px;
+}
+  
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    position: absolute;
+    border-radius: 10px;
+    
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: black; cursor: pointer;}
+
+.menu {
+
+
+background-color: indianred;
+
+
+}
+
+.menu  {
+
+background-color: antiquewhite;
+padding: 2px;
+
+}
+
+.beritasatu {
+    
+    padding: 10px;
+    height: 230px;
+    width: 850px;  
+    
+
+}
+
+
+.headnews {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.gambar {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.gambarfix {
+
+    padding: 20px;
+    margin-left: 80px;
+
+
+}
+
+.isi {
+    text-align: justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+a {
+    text-decoration:none;
+
+}
+
+.readmore {
+
+    background-color: lightpink;
+    padding: 2px;
+    border-radius: 1px;
+
+}
+
+
+.comment_form input, #comment_form textarea {
+    border: 2px solid rgba(0,0,0,0.1);
+    padding: 8px 10px;
+    outline: 0;
+    
+}
+#comment_form input {
+    width: 180px;
+}
+#comment_form textarea {
+    width: 170px;
+    padding: 5px;
+}
+
+#comment_form input[type="submit"] {
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #efefef, #ddd);
+    background: -moz-linear-gradient(top, #efefef, #ddd);
+    background: -ms-linear-gradient(top, #efefef, #ddd);
+    background: -o-linear-gradient(top, #efefef, #ddd);
+    background: linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    border: 1px solid #ccc;
+}
+
+#comment_form input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #eee, #ccc);
+    background: -moz-linear-gradient(top, #eee, #ccc);
+    background: -ms-linear-gradient(top, #eee, #ccc);
+    background: -o-linear-gradient(top, #eee, #ccc);
+    background: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #bbb;
+}
+
+#comment_form input[type="submit"]:active {
+    background: -webkit-linear-gradient(top, #ddd, #aaa);
+    background: -moz-linear-gradient(top, #ddd, #aaa);
+    background: -ms-linear-gradient(top, #ddd, #aaa);
+    background: -o-linear-gradient(top, #ddd, #aaa);
+    background: linear-gradient(top, #ddd, #aaa);    
+    border: 1px solid #999;
+}
+
+#comment_form div {
+    margin-bottom: 8px;
+    
+}
+
+.coment  {
+
+margin-top: 50px;
+padding: 10px;
+
+}
