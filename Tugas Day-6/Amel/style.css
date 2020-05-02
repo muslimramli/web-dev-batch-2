@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+body {background-color: whitesmoke;
+}
+
+.container-fluid
+}
+
+.contact {
+    background-color: white;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #4d4d4d;
+    text-align:right;
+    float: left;
+    margin-top: 20px;
+}
+.judul {
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: #4d4d4d;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.tagline {
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #4d4d4d;
+    text-align:center;
+}
+
+.fontnavbar {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+
+----------------------------------------------
+
+.lamandepan {
+    background-image: url(gambar2.jpg);
+    text-align: center;
+}
+.gambar{ width: 330px;
+}
+
+.judulberita {
+    font-family: 'Merienda', cursive;
+    color: #4d4d4d;
+    font-size: 20px;
+    text-align: center;
+
+}
+.kiri {
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.tengah {
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.kanan {
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.readmore {
+    background-color: seagreen;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+
+
+}
+
+
+
+
+font-family: 'Roboto Slab', serif;
+font-family: 'Quicksand', sans-serif;
